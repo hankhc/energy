@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jupyter-notebook:
+    image: gurvin/spark-jupyter-notebook 
+    ports:
+      - "8888:8888"
+    volumes:
+      - /c/Users/iot/work:/home/iii/test/work
